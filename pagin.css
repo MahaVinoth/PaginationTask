@@ -1,0 +1,62 @@
+#eventsDiv{
+    display:flex;
+    flex-direction: column;
+    gap:0.5em;
+}
+.numbersPage{
+    cursor: pointer;
+}
+button{
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+#mainDiv{
+    border:2px solid darkslategrey;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    align-content: center;
+    height:500px;
+    justify-content: center;
+    text-align: center;
+    width:auto;
+}
+#contentDiv{
+    display:flex;
+    gap:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10px;
+    text-align: left;
+    grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+}
+
+.infoElemDiv{
+    height:100px;
+    border:2px solid darkslategrey;
+    border-radius: 5px;
+    width:300px;
+    color:green;
+    background-color: lightblue;
+    overflow: hidden;
+    padding: 10px;
+}
+#mainNav{
+    margin: 20px;;
+}
+/* #listparent{
+    display: flex;
+    gap: 1em;
+    padding: 7px; 
+    border:1px solid blue;
+} */
+.pageNo{
+    display: none;
+}
+.selectedItem{
+    background-color: blue !important;
+    color: azure !important;
+    border-top-left-radius: revert !important;
+    border-bottom-left-radius: revert !important;
+}
